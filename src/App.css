@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar{
+    height: 10vh;
+    background-color: #3e3e92;
+    color: white;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-name{
+    font-size: 2.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  width: 100vw;
+  height: 90vh; 
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.part-1{
+    width: 40%;
+    height: 80%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.part-2{
+    width: 40%;
+    height: 80%;
+    background-color: #ddd;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.part-2 img{
+    max-width: 500px;
+    max-height: 500px;
+}
+.btn{
+    width: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+    background: #3e3e92;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.load-btn{
+    margin-top: 10px;
+    border-radius: 7px;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inp {
+    width: 50%;
+    outline: none;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ffffff;
+}
+.inp-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
